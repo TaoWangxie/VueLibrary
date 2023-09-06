@@ -1,0 +1,17 @@
+/* 预设四种主题 */
+
+:root {
+  --bgc-one: #ffffff;
+  --bgc-two: #ebeef5;
+  --bgc-three: #FAFCFF;
+  --color-one: #303133;
+  --color-two: #909399;
+  --border-one: #dcdfe6;
+}
+
+$bgc-one: var(--bgc-one);
+$bgc-two: var(--bgc-two);
+$bgc-three: var(--bgc-three);
+$color-one: var(--color-one);
+$color-two: var(--color-two);
+$border-one: var(--border-one);
