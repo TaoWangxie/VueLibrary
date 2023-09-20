@@ -24,6 +24,11 @@ const baseRoute = [
     name: "newLayout",
     component: () => import(/* webpackChunkName: "newLayout" */ "@/views/newLayout/index.vue"),
   },
+  {
+    path: "/waterfall",
+    name: "waterfall",
+    component: () => import(/* webpackChunkName: "waterfall" */ "@/views/waterfall/index.vue"),
+  },
 ]
 export const routes = [
   {
