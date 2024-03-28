@@ -1,5 +1,6 @@
 export const menuMap = {
   layout: '常用组件',
+  canvasShadow:"canvasShadow",
   demo: 'demo',
   ceiling: '吸顶',
   vxeTable: 'vxeTable',

@@ -37,6 +37,15 @@ export const routes = [
     name: 'layout',
     children: [
       {
+        path: "/canvasShadow",
+        name: "canvasShadow",
+        component: () =>
+          import(/* webpackChunkName: "canvasShadow" */ "@/views/canvasShadow/index.vue"),
+        meta: {
+          index: 1,
+        },
+      },
+      {
         path: "/demo",
         name: "demo",
         component: () =>
