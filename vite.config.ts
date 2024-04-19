@@ -54,7 +54,7 @@ export default ({ command, mode }: ConfigEnv): UserConfigExport => {
     ],
     server: {
       open: true,
-      port: 3002,
+      port: 5002,
     },
     base: `${process.env.NODE_ENV === 'production' ? 'http://nuwa.kq.ziroom.com' : ''}/nuwa/`,
     // base: `/nuwa/`,
